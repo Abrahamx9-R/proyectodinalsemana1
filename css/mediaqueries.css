@@ -1,0 +1,96 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.productos{
+		display: none;
+	}
+	.productos1 img{
+		margin-right: 5vw;
+	}
+	.productos1 .row .col:last-child{
+		display: none;
+	}
+	.instagram{
+		padding: 2vw;
+		padding-left: 4vw;
+		display: block;
+	    align-items: center;
+
+	}
+	.twiter{
+		
+		padding-top: 2vw;
+		display: block;
+	    align-items: center;
+	  	
+	}
+	.facebook{
+		padding-left: 2vw;
+		display: block;
+	    align-items: center;
+
+	 }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 720px) {
+	.productos1 img{
+		margin-right: 2.5vw;
+	}
+	.productos1 .row .col:last-child{
+		display: inline-block;
+	}
+	.instagram{
+		padding: 2vw;
+		padding-left: 4vw;
+		display: inline-block;
+	    align-items: center;
+
+	}
+	.twiter{
+		
+		padding-top: 2vw;
+		display: inline-block;
+	    align-items: center;
+	  	
+	}
+	.facebook{
+		padding-left: 2vw;
+		display: inline-block;
+	    align-items: center;
+
+	 }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.productos1 img{
+		margin-right: 0vw;
+	}
+	.productos{
+		display: inline-block;
+	}
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+-
